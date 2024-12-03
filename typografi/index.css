@@ -1,0 +1,41 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d3baba;
+}
+p {
+  color: #292626;
+  line-height: 2;
+}
+
+header {
+  font-family: 'Hind', sans-serif;
+  border: 2px solid red;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Hind', sans-serif;
+  color: #241f1f;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+main {
+  border: 2px solid blue;
+}
+
+.footer-text {
+  color: #312222;
+  text-align: center;
+}
+.footer {
+  background: #997d7d;
+  margin-top: 20px;
+  padding: 10px;
+}

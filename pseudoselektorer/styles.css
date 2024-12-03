@@ -1,0 +1,83 @@
+body {
+  background-color: #550356;
+}
+h1,
+p {
+  color: hotpink;
+}
+
+nav {
+  text-align: center;
+  padding: 20px 0;
+}
+a:visited {
+  color: black;
+}
+.rainbow-menu {
+  list-style: none;
+  padding: 20px 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.rainbow-menu li:nth-child(1) {
+  background-color: #aa0a0a;
+}
+.rainbow-menu li:nth-child(2) {
+  background-color: #ff7f00;
+}
+.rainbow-menu li:nth-child(3) {
+  background-color: #ffff00;
+}
+.rainbow-menu li:nth-child(4) {
+  background-color: #00ff00;
+}
+.rainbow-menu li:nth-child(5) {
+  background-color: rebeccapurple;
+}
+.rainbow-menu li:nth-child(3) a {
+  color: black;
+}
+/* Unika hover-effekter för varje punkt */
+.rainbow-menu li:nth-child(1):hover {
+  background-color: darkred;
+}
+
+.rainbow-menu li:nth-child(2):hover {
+  background-color: #e0eb0d;
+}
+
+.rainbow-menu li:nth-child(3):hover {
+  background-color: goldenrod;
+}
+
+.rainbow-menu li:nth-child(4):hover {
+  background-color: darkgreen;
+}
+
+.rainbow-menu li:nth-child(5):hover {
+  background-color: darkblue;
+}
+.rainbow-menu li a {
+  text-decoration: none;
+  color: #050147;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+
+input:focus {
+  background-color: #afc0c4;
+  outline: 2px solid green;
+  outline-offset: 9px;
+}
+input[type='text'] {
+  color: hotpink;
+}
+
+.rainbow-menu li a:focus {
+  outline: 3px solid lightblue;
+  outline-offset: 2px;
+}
